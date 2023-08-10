@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Majd Al Kayyal - Personal Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Template Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
+
+    <!-- Template CSS Files -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/preloader.min.css" rel="stylesheet">
+    <link href="css/circle.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/fm.revealator.jquery.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- CSS Skin File -->
+    <link href="css/skins/goldenrod.css" rel="stylesheet">
+
+    <!-- Modernizr JS File -->
+    <script src="js/modernizr.custom.js"></script>
+    <style>
+        body::-webkit-scrollbar {
+          display: none;
+        }
+    
+        body {
+          -ms-overflow-style: none;  
+          scrollbar-width: none; 
+        }
+    
+    </style>
+</head>
+
+
+
+
+<body class="about">
+    <header class="header" id="navbar-collapse-toggle">
+        <ul class="icon-menu d-none d-lg-block">
+            <li class="icon-box">
+                <i class="fa fa-home"></i>
+                <a href="index.html">
+                    <h2>Home</h2>
+                </a>
+            </li>
+            <li class="icon-box active">
+                <i class="fa fa-user"></i>
+                <a href="about.html">
+                    <h2>About</h2>
+                </a>
+            </li>
+            <li class="icon-box">
+                <i class="fa fa-briefcase"></i>
+                <a href="portfolio.html">
+                    <h2>Portfolio</h2>
+                </a>
+            </li>
+            <!-- <li class="icon-box">
+                <i class="fa fa-envelope-open"></i>
+                <a href=@Url.Action("Contact","Home")>
+                    <h2>Contact</h2>
+                </a>
+            </li> -->
+            <li class="icon-box">
+                <i class="fa fa-github"></i>
+                <a target="_blank" href="https://github.com/PortgasXDXMajd?tab=repositories">
+                    <h2>GitHub</h2>
+                </a>
+            </li>
+        </ul>
+        <nav role="navigation" class="d-block d-lg-none">
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul class="list-unstyled" id="menu">
+                    <li><a href="index.html"><i class="fa fa-home"></i><span>Home</span></a></li>
+                    <li class="active"><a href="about.html"><i class="fa fa-user"></i><span>About</span></a></li>
+                    <li><a href="portfolio.html"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
+                    <!-- <li><a href=@Url.Action("Contact","Home")><i class="fa fa-envelope-open"></i><span>Contact</span></a></li> -->
+                    <li><a target="_blank" href="https://github.com/PortgasXDXMajd?tab=repositories"><i class="fa fa-github"></i><span>GitHub</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="title-section text-left text-sm-center revealator-slideup revealator-once revealator-delay1">
+        <h1>ABOUT <span>ME</span></h1>
+        <span class="title-bg">Resume</span>
+    </section>
+
+    <section class="main-content revealator-slideup revealator-once revealator-delay1">
+        <div class="container">
+            <div class="row">
+                <div class="col-14 col-lg-6 col-xl-6">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="text-uppercase custom-title mb-0 ft-wt-600">personal infos</h3>
+                        </div>
+                        <div class="col-12 d-block d-sm-none">
+                            <img src="img/projects/meMobile.jpeg" class="img-fluid main-img-mobile" alt="my picture" />
+                        </div>
+                        <div class="col-7">
+                            <ul class="about-list list-unstyled open-sans-font">
+                                <li> <span class="title">Firstname</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Majd</span> </li>
+                                <li> <span class="title">Lastname</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">AlKayyal</span> </li>
+                                <li> <span class="title">Age :</span> <span id = "ageOutput" class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block"></span> </li>
+                                <li> <span class="title">Nationality :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Syrian</span> </li>
+                                <li> <span class="title">Freelance :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Available</span> </li>
+                            </ul>
+                        </div>
+                        <div class="col-7">
+                            <ul class="about-list list-unstyled open-sans-font">
+                                <li> <span class="title">Address</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Munich, Germany</span> </li>
+                                <li> <span class="title">Phone</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">+491631197289</span> </li>
+                                <li> <span class="title">Email</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">majd.kayyal.3398@gmail.com</span> </li>
+                                <li> <span class="title">Languages</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">English, Arabic, German</span> </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 mt-3">
+                            <a class="button" href=@Url.Action("Download")>
+                                <span class="button-text">Download My CV</span>
+                                <span class=" button-icon"></span>
+                                <span class=" mybuttonIcon fa fa-download"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-7 col-xl-6 mt-5 mt-lg-0">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="box-stats with-margin">
+                                <h3 class="poppins-font position-relative">5</h3>
+                                <p class="open-sans-font m-0 position-relative text-uppercase">years of <span class="d-block">experience</span></p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="box-stats with-margin">
+                                <h3 class="poppins-font position-relative">17</h3>
+                                <p class="open-sans-font m-0 position-relative text-uppercase">completed <span class="d-block">projects</span></p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="box-stats">
+                                <h3 class="poppins-font position-relative">10</h3>
+                                <p class="open-sans-font m-0 position-relative text-uppercase">Happy<span class="d-block">customers</span></p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="box-stats">
+                                <h3 class="poppins-font position-relative">10</h3>
+                                <p class="open-sans-font m-0 position-relative text-uppercase">awards <span class="d-block">won</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="separator">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="text-uppercase pb-4 pb-sm-5 mb-3 mb-sm-0 text-left text-sm-center custom-title ft-wt-600">My Skills</h3>
+                </div>
+                <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                    <div class="c100 p95">
+                        <span>95%</span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                    <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">AWS</h6>
+                </div>
+                <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                    <div class="c100 p90">
+                        <span>90%</span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                    <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">Azure</h6>
+                </div>
+                <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                    <div class="c100 p95">
+                        <span>95%</span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                    <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">C#</h6>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                    <div class="c100 p95">
+                        <span>95%</span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                    <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">ASP.NET Core 6.0</h6>
+                </div>
+                <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                    <div class="c100 p65">
+                        <span>65%</span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                    <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">Web3 (Python)</h6>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                    <div class="c100 p70">
+                        <span>70%</span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                    <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">Brownie</h6>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                    <div class="c100 p95">
+                        <span>95%</span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                    <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">Flutter</h6>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                    <div class="c100 p90">
+                        <span>90%</span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                    <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">RESTFul API</h6>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                    <div class="c100 p80">
+                        <span>80%</span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                    <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">JS</h6>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                    <div class="c100 p75">
+                        <span>75%</span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                    <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">Python</h6>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                    <div class="c100 p80">
+                        <span>80%</span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                    <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">TS</h6>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                    <div class="c100 p75">
+                        <span>75%</span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                    <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">React.js</h6>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                    <div class="c100 p85">
+                        <span>85%</span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                    <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">React Native</h6>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                    <div class="c100 p75">
+                        <span>75%</span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                    <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">HTML / CSS</h6>
+                </div>
+
+
+                <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                    <div class="c100 p80">
+                        <span>80%</span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                    <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">C++</h6>
+                </div>
+
+                
+
+                <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                    <div class="c100 p35">
+                        <span>35%</span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                    <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">Docker</h6>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                    <div class="c100 p75">
+                        <span>75%</span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                    <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">firebase</h6>
+                </div>
+            </div>
+            <hr class="separator mt-1">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="text-uppercase pb-5 mb-0 text-left text-sm-center custom-title ft-wt-600">Experience <span>&</span> Education</h3>
+                </div>
+                <div class="col-lg-6 m-15px-tb">
+                    <div class="resume-box">
+                        <ul>
+                            <li>
+                                <div class="icon">
+                                    <i class="fa fa-briefcase"></i>
+                                </div>
+                                <span class="time open-sans-font text-uppercase">April 2023 - Current</span>
+                                <h5 class="poppins-font text-uppercase">Software Engineer<span class="place open-sans-font">PwC, Germany</span></h5>
+                                <p class="open-sans-font">Full Stack Developer in the IFS Department at PwC Munich</p>
+                            </li>
+
+                            <li>
+                                <div class="icon">
+                                    <i class="fa fa-briefcase"></i>
+                                </div>
+                                <span class="time open-sans-font text-uppercase">March 2022 - Current</span>
+                                <h5 class="poppins-font text-uppercase">Project Manager & Senior Developer<span class="place open-sans-font">TelyPay</span></h5>
+                                <p class="open-sans-font">Leading a team of 10 web developers using tools like Jira and BitBucket</p>
+                                <p class="open-sans-font">Constructing the Company Infrastructure and the way of work.</p>
+
+                            </li>
+
+                            <li>
+                                <div class="icon">
+                                    <i class="fa fa-briefcase"></i>
+                                </div>
+                                <span class="time open-sans-font text-uppercase">October 2021 - Current</span>
+                                <h5 class="poppins-font text-uppercase">Junior Intern <span class="place open-sans-font">German University of Technology in Oman</span></h5>
+                                <p class="open-sans-font">Assisting the academic staff in the computer science department in courses preparation and research work.</p>
+                            </li>
+
+                            <li>
+                                <div class="icon">
+                                    <i class="fa fa-briefcase"></i>
+                                </div>
+                                <span class="time open-sans-font text-uppercase">August 2021 - Current</span>
+                                <h5 class="poppins-font text-uppercase">React Native Developer <span class="place open-sans-font">Econsor Mobile GmbH, Germany</span></h5>
+                                <p class="open-sans-font">Recreating a mobile application for one of their clients, using react native with typescript.</p>
+                            </li>
+
+                            <li>
+                                <div class="icon">
+                                    <i class="fa fa-briefcase"></i>
+                                </div>
+                                <span class="time open-sans-font text-uppercase">2019 - 2021</span>
+                                <h5 class="poppins-font text-uppercase">Full-Stack Web and Mobile Developer <span class="place open-sans-font">SMART Y, Oman</span></h5>
+                                <p class="open-sans-font">Developing mobile application for online courses and meditation including social media and chat services using Flutter and ASP.NET Core Web API </p>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <i class="fa fa-briefcase"></i>
+                                </div>
+                                <span class="time open-sans-font text-uppercase">2019</span>
+                                <h5 class="poppins-font text-uppercase">Full-Stack Web and Mobile Developer <span class="place open-sans-font">Dar Al Atta, Oman</span></h5>
+                                <p class="open-sans-font">Developing mobile application for donations using Flutter and ASP.NET Core Web API</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 m-15px-tb">
+                    <div class="resume-box">
+                        <ul>
+                            <li>
+                                <div class="icon">
+                                    <i class="fa fa-graduation-cap"></i>
+                                </div>
+                                <span class="time open-sans-font text-uppercase">OCT 2022 - CURRENT</span>
+                                <h5 class="poppins-font text-uppercase">M.Sc. Data Engineering And Analytics<span class="place open-sans-font">Technical University of Munich (TUM)</span></h5>
+                                <p class="open-sans-font">DAAD’s Master Studies Scholarship Holder</p>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <i class="fa fa-graduation-cap"></i>
+                                </div>
+                                <span class="time open-sans-font text-uppercase">2021</span>
+                                <h5 class="poppins-font text-uppercase">Bachelor Thesis <span class="place open-sans-font">RWTH Aachen University</span></h5>
+                                <p class="open-sans-font">Design and Implement of a Mobile Application to Enhance the perception of OER</p>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <i class="fa fa-graduation-cap"></i>
+                                </div>
+                                <span class="time open-sans-font text-uppercase">2016 - 2020</span>
+                                <h5 class="poppins-font text-uppercase">BcS Computer Science <span class="place open-sans-font">German University of Technology in Oman</span></h5>
+                                <p class="open-sans-font">Graduated with Cumulative GPA of 4.0 and I was in the deal's list for 8 consecutive semesters</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/preloader.min.js"></script>
+    <script src="js/fm.revealator.jquery.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpGridGallery.js"></script>
+    <script src="js/jquery.hoverdir.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+       function getAge() { 
+            // let age = Date(). getFullYear() - 1998;
+            // console.log(age);
+            document.getElementById('ageOutput').textContent = 25;
+        }
+        document.addEventListener("DOMContentLoaded", function() {
+            getAge();
+        });
+    </script> 
+</html>
+
+
