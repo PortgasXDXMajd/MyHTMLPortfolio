@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Majd Al Kayyal - Personal Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Template Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
+
+    <!-- Template CSS Files -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/preloader.min.css" rel="stylesheet">
+    <link href="css/circle.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/fm.revealator.jquery.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- CSS Skin File -->
+    <link href="css/skins/goldenrod.css" rel="stylesheet">
+
+    <!-- Modernizr JS File -->
+    <script src="js/modernizr.custom.js"></script>
+</head>
+
+<body class="home">
+        <header class="header" id="navbar-collapse-toggle">
+        @*<ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">*@
+        <ul class="icon-menu d-none d-lg-block">
+            <li class="icon-box active">
+                <i class="fa fa-home"></i>
+                <a href=@Url.Action("Index","Home")>
+                    <h2>Home</h2>
+                </a>
+            </li>
+            <li class="icon-box">
+                <i class="fa fa-user"></i>
+                <a href=@Url.Action("About","Home")>
+                    <h2>About</h2>
+                </a>
+            </li>
+            <li class="icon-box">
+                <i class="fa fa-briefcase"></i>
+                <a href=@Url.Action("Index","Portfolio")>
+                    <h2>Portfolio</h2>
+                </a>
+            </li>
+            <li class="icon-box">
+                <i class="fa fa-envelope-open"></i>
+                <a href=@Url.Action("Contact","Home")>
+                    <h2>Contact</h2>
+                </a>
+            </li>
+            <li class="icon-box">
+                <i class="fa fa-github"></i>
+                <a target="_blank" href="https://github.com/PortgasXDXMajd?tab=repositories">
+                    <h2>GitHub</h2>
+                </a>
+            </li>
+        </ul>
+        <nav role="navigation" class="d-block d-lg-none">
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul class="list-unstyled" id="menu">
+                    <li class="active"><a href=@Url.Action("Index","Home")><i class="fa fa-home"></i><span>Home</span></a></li>
+                    <li><a href=@Url.Action("About","Home")><i class="fa fa-user"></i><span>About</span></a></li>
+                    <li><a href=@Url.Action("Index","Portfolio")><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
+                    <li><a href=@Url.Action("Contact","Home")><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
+                    <li><a target="_blank" href="https://github.com/PortgasXDXMajd?tab=repositories"><i class="fa fa-github"></i><span>GitHub</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="container-fluid main-container container-home p-0 revealator-slideup revealator-once revealator-delay1">
+        <div class="color-block d-none d-lg-block"></div>
+        <div class="row home-details-container align-items-center">
+            <div class="col-lg-4 bg position-fixed d-none d-lg-block"></div>
+            <div class="col-12 col-lg-8 offset-lg-4 home-details text-left text-sm-center text-lg-left">
+                <div>
+                    <img src="~/img/projects/meMobile.jpeg" class="img-fluid main-img-mobile d-none d-sm-block d-lg-none" alt="my picture" />
+                    <h1 class="text-uppercase poppins-font">I'm Majd AlKayyal.<span>System Architect</span></h1>
+                    <p class="open-sans-font">
+                        “It’s fine to celebrate success, but it is more important to heed the lessons of
+                        failure.”- Bill Gates</p>
+                    <p class ="open-sans-font">
+                        I am the kind of person who keeps getting up after each failure, walking
+                        towards being the best.
+                    </p>
+                    <a class="button" href=@Url.Action("About","Home")>
+                        <span class="button-text">more about me</span>
+                        <span class=" button-icon"></span>
+                        <span class=" mybuttonIcon fa fa-arrow-right"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+
+
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/preloader.min.js"></script>
+    <script src="js/fm.revealator.jquery.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpGridGallery.js"></script>
+    <script src="js/jquery.hoverdir.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>   
+</html>
+
+
