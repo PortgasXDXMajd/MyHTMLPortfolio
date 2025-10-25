@@ -1,330 +1,438 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Majd Al Kayyal - Senior Software Engineer | AI & Cloud Specialist</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Portfolio of Majd Al Kayyal, a Munich-based Senior Software Engineer & Assistant Manager specializing in scalable backend systems, AI/LLM solutions, and cloud-native applications on AWS & Azure.">
-    <meta name="keywords" content="Majd Al Kayyal, Senior Software Engineer, Assistant Manager, Backend Developer, Data Engineer, LLM, AI Engineer, C#, Python, .NET Core, AWS, Azure, Kubernetes, Munich">
-    <meta name="author" content="Majd Al Kayyal">
-    <meta name="robots" content="index, follow">
-    <meta name="language" content="EN">
-    <meta name="theme-color" content="#DAA520">
-    <link rel="canonical" href="https://www.majdkayyal.com">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Majd Al Kayyal — Systems Architect</title>
+  <meta name="description" content="Portfolio of Majd Al Kayyal, Senior Software Engineer and AI Systems Architect specializing in scalable backend systems, LLM engineering, and cloud-native architectures." />
+  <meta name="theme-color" content="#111418" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <script defer src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+  <link rel="preload" href="https://fonts.gstatic.com" as="fetch" crossorigin>
 
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Majd Al Kayyal - Senior Software Engineer Portfolio">
-    <meta property="og:description" content="Building enterprise-grade software and intelligent systems. Expert in .NET, Python, Cloud Architecture, and applied AI. Based in Munich, Germany.">
-    <meta property="og:url" content="https://www.majdkayyal.com">
-    <meta property="og:image" content="https://www.majdkayyal.com/img/majd-al-kayyal-profile.jpg">
+  <!-- Styles -->
+  <link rel="stylesheet" href="/css/style.css" />
 
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Majd Al Kayyal - Senior Software Engineer Portfolio">
-    <meta name="twitter:description" content="Specialist in building scalable backend systems and LLM-powered solutions in Munich, Germany.">
-    <meta name="twitter:image" content="https://www.majdkayyal.com/img/majd-al-kayyal-profile.jpg">
+  <!-- SEO: Core -->
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://majdalkayyal.com/" />
+  <meta name="author" content="Majd Al Kayyal" />
 
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Majd Al Kayyal",
-      "jobTitle": "Senior Software Engineer",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "KPMG"
-      },
-      "alumniOf": [
-        {
-          "@type": "CollegeOrUniversity",
-          "name": "Technical University of Munich (TUM)"
-        },
-        {
-          "@type": "CollegeOrUniversity",
-          "name": "German University of Technology in Oman (GUtech)"
-        }
-      ],
-      "image": "img/majd-al-kayyal-profile.jpg",
-      "email": "mailto:alkayyal.majd@gmail.com",
-      "telephone": "+491745166916",
-      "url": "https://www.majdkayyal.com",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Munich",
-        "addressCountry": "DE"
-      },
-      "knowsAbout": ["Software Engineering", "Backend Development", "Cloud Computing", "Data Engineering", "Artificial Intelligence", "LLM Agents", ".NET Core", "Python", "AWS", "Azure", "Kubernetes"]
+  <!-- Open Graph / Facebook -->
+  <meta property="og:title" content="Majd Al Kayyal — Senior Software Engineer | AI & Cloud Specialist" />
+  <meta property="og:description" content="Senior Software Engineer & AI Systems Architect in Munich. Distributed systems, LLM platforms, and cloud-native apps." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://majdalkayyal.com/" />
+  <meta property="og:image" content="https://majdalkayyal.com/og-image.jpg" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Majd Al Kayyal — Senior Software Engineer | AI & Cloud Specialist" />
+  <meta name="twitter:description" content="Senior Software Engineer & AI Systems Architect in Munich. Distributed systems, LLM platforms, and cloud-native apps." />
+  <meta name="twitter:image" content="https://majdalkayyal.com/og-image.jpg" />
+
+  <!-- Icons -->
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Majd Al Kayyal",
+    "url": "https://majdalkayyal.com/",
+    "image": "https://majdalkayyal.com/og-image.jpg",
+    "jobTitle": "Systems Architect",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "KPMG Germany"
+    },
+    "email": "mailto:alkayyal.majd@gmail.com",
+    "telephone": "+49-174-5166916",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Munich",
+      "addressCountry": "DE"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/majd-alkayyal-67a81a18a/",
+      "https://github.com/PortgasXDXMajd",
+      "https://majdalkayyal.com"
+    ]
+  }</script>
+  <script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Majd Al Kayyal",
+    "url": "https://majdalkayyal.com/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://majdalkayyal.com/portfolio.html?q={search_term_string}",
+      "query-input": "required name=search_term_string"
     }
-    </script>
-
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800|Open+Sans:300,400,600,700" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <style>
-      body { scroll-behavior: smooth; color: #000000; }
-      .navbar { background: transparent !important; backdrop-filter: blur(10px); }
-      .nav-link { font-weight: 600; color: #fff !important; }
-      .nav-link.active, .nav-link:hover { color: #DAA520 !important; }
-      .hero { padding: 120px 0 80px; background: url('img/hero-bg.jpg') center/cover no-repeat; text-shadow: 0 2px 4px rgba(0,0,0,0.6); }
-      .btn-outline-goldenrod { border: 2px solid #DAA520; color: #DAA520; border-radius: .3rem; }
-      .btn-outline-goldenrod:hover { background: #DAA520; color: #fff; }
-      .btn-link-goldenrod { color: #DAA520; text-decoration: none; font-weight: 600; }
-      .btn-link-goldenrod:hover { color: #fff; text-decoration: underline; }
-      .skill-group { margin-bottom: 2rem; }
-      .skill-group h5 { font-weight: 600; margin-bottom: .5rem; color: #DAA520; }
-      .skill-badge { display: inline-block; margin: 4px 6px; padding: .4rem .8rem; font-size: .9rem; background: rgba(218,170,32,0.8); color: #fff; border-radius: .5rem; }
-      .timeline-item { position: relative; margin: 2rem 0; padding-left: 2rem; border-left: 3px solid #DAA520; }
-      .timeline-item::before { content: ''; position: absolute; left: -8px; top: 0; width: 16px; height: 16px; background: #DAA520; border-radius: 50%; }
-      .card-transparent { background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: #fff; }
-      section { padding-top: 60px; padding-bottom: 60px; }
-      .card-transparent:hover {
-        background: rgba(255, 215, 0, 0.1);
-        transform: scale(1.02);
-        transition: all 0.3s ease;
-      }
-    </style>
+  }</script>
 </head>
-<body class="text-light">
-  <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container">
-      <a class="navbar-brand font-weight-bold text-white" href="#about">Majd Al Kayyal</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navMenu">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link active" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-          <li class="nav-item"><a class="nav-link" href="#awards">Awards</a></li>
-          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-          <li class="nav-item"><a class="btn btn-outline-goldenrod ml-lg-3" href="files/MajdAlkayyalCV.pdf" target="_blank" download>Download CV</a></li>
-        </ul>
+<body>
+  <!-- Particles Background -->
+  <div id="particles-js" aria-hidden="true"></div>
+
+  <!-- NAVBAR -->
+  <div class="nav-wrap">
+    <nav class="nav container" aria-label="Primary">
+      <div class="nav-inner">
+        <a href="#top" class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span>Majd&nbsp;Al&nbsp;Kayyal</span>
+        </a>
+        <button class="menu-btn btn-ghost" id="menuBtn" aria-label="Toggle menu">☰</button>
+        <div class="nav-links" id="navLinks">
+          <a class="link" href="#about">About</a>
+          <a class="link" href="#skills">Skills</a>
+          <a class="link" href="#experience">Experience</a>
+          <a class="link" href="#education">Education</a>
+          <a class="link" href="#awards">Awards</a>
+          <a class="link" href="#research">Research</a>
+          <a class="btn btn-ghost" href="portfolio.html">Portfolio</a>
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- HERO (Redesigned) -->
+  <header id="top" class="hero-pro">
+    <div class="hero-bg" aria-hidden="true"></div>
+
+    <div class="container shell reveal">
+      <!-- Left: Profile & quick contact -->
+      <div class="pro-card">
+        <img class="avatar" src="css/me_prof.jpeg" alt="Portrait of Majd Al Kayyal" />
+        <div class="title-wrap">
+          <h1>Systems Architect</h1>
+          <p class="lead">Designing distributed systems, LLM platforms, and cloud-native software in Munich.</p>
+
+          <div class="actions" role="group" aria-label="Primary actions">
+          <a class="btn btn-primary" href="portfolio.html">View my work</a>
+          <a class="btn" href="mailto:alkayyal.majd@gmail.com" aria-label="Email Majd">Contact me</a>
+          <a class="btn btn-ghost" href="files/MajdAlkayyalCV.pdf" download aria-label="Download CV">Download CV</a>
+        </div>
+        </div>
+      </div>
+
+      <!-- Right: Stats & deep links -->
+      <div class="right-wrap">
+        <div class="glance" aria-label="At a glance stats">
+          <div class="stat">
+            <strong>5 yrs</strong><span>Building production systems</span>
+          </div>
+          <div class="stat">
+            <strong>LLMs</strong><span>Multi-agent • LangChain/Graph</span>
+          </div>
+          <div class="stat">
+            <strong>Web Services</strong><span>.NET Core • FastAPI • Express</span>
+          </div>
+          <div class="stat">
+            <strong>Databases</strong><span>SQL Optimization</span>
+          </div>
+          <div class="stat">
+            <strong>Cloud Services</strong><span>AWS • Azure</span>
+          </div>
+          <div class="stat">
+            <strong>Distributed Systems</strong><span>Kafka</span>
+          </div>
+        </div>
+
+        <div class="link-grid" aria-label="Key links">
+          <a class="smart-link" href="https://www.linkedin.com/in/majd-alkayyal-67a81a18a/" target="_blank" rel="noreferrer noopener">
+            <div class="label">
+              <svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM0 8h5v16H0zM8 8h4.8v2.2h.07c.67-1.27 2.3-2.6 4.73-2.6 5.06 0 6 3.33 6 7.67V24h-5V16.4c0-1.81-.03-4.13-2.52-4.13-2.52 0-2.9 1.97-2.9 4v7.73H8z"/></svg>
+              LinkedIn
+            </div>
+          </a>
+
+          <a class="smart-link" href="https://github.com/PortgasXDXMajd" target="_blank" rel="noreferrer noopener">
+            <div class="label">
+              <svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.79 23.4c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.42-1.34-1.8-1.34-1.8-1.09-.75.08-.74.08-.74 1.21.09 1.85 1.25 1.85 1.25 1.07 1.85 2.81 1.31 3.49 1 .11-.78.42-1.31.77-1.61-2.66-.3-5.46-1.33-5.46-5.9 0-1.3.47-2.36 1.24-3.19-.12-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.22a11.5 11.5 0 0 1 6 0c2.29-1.54 3.3-1.22 3.3-1.22.66 1.65.24 2.87.12 3.17a4.55 4.55 0 0 1 1.24 3.19c0 4.58-2.8 5.6-5.47 5.9.43.37.81 1.1.81 2.22v3.29c0 .32.21.69.83.58A12 12 0 0 0 12 .5z"/></svg>
+              GitHub
+            </div>
+          </a>
+          <a class="smart-link" href="mailto:alkayyal.majd@gmail.com" target="_blank" rel="noreferrer noopener">
+            <div class="label">
+              <svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 
+                        2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 
+                        4l-8 5-8-5V6l8 5 8-5v2z"/>
+              </svg>
+              Email
+            </div>
+          </a>
+        </div>
       </div>
     </div>
-  </nav>
+  </header>
 
-  <section id="about" class="hero text-center text-white">
-    <div class="container">
-      <h1 class="display-3 font-weight-bold">Hi, I'm Majd Al Kayyal</h1>
-      <p class="lead">Senior Software Engineer & Assistant Manager building scalable AI-powered systems.</p>
-    </div>
-  </section>
-
-  <main class="container pt-5">
-    <div class="row align-items-center mb-5">
-      <div class="col-md-4 text-center">
-        <img src="img/majd-al-kayyal-profile.jpg" alt="Majd Al Kayyal, Senior Software Engineer based in Munich" class="img-fluid rounded-circle shadow-lg mb-3" style="max-width:220px;">
+  <main>
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="container reveal">
+        <div class="section-title">
+          <h2>About Me</h2>
+          <p class="section-sub">Research-driven engineer delivering enterprise AI systems</p>
+        </div>
+        <div class="panel">
+          <p>
+            I’m a Senior Software Engineer & Assistant Manager at KPMG Germany, building scalable backend and AI-driven systems. My work bridges research and enterprise — from <strong>multi-agent systems</strong> and <strong>RAG pipelines</strong> to production-grade software engineering and mentoring global teams.
+          </p>
+        </div>
       </div>
-      <div class="col-md-8">
-        <h2 class="mb-3 text-white">About Me</h2>
-        <p>I am a Senior Software Engineer and Assistant Manager at KPMG, specializing in the design and integration of AI/LLM-powered systems.</p>
-        <p>
-          <strong>Email:</strong> <a href="mailto:alkayyal.majd@gmail.com" class="text-white">alkayyal.majd@gmail.com</a><br>
-          <strong>Phone:</strong> <a href="tel:+491745166916" class="text-white">+49 174 5166916</a><br>
-          <strong>Languages:</strong> English (Professional), German (Beginner), Arabic (Native) 
-        </p>
-      </div>
-    </div>
+    </section>
 
+    <!-- SKILLS -->
     <section id="skills">
-      <h3 class="font-weight-bold text-center mb-4 text-white">Technical Skills</h3>
-      <div class="skill-group">
-        <h5>Languages</h5>
-        <span class="skill-badge">C#</span><span class="skill-badge">Python</span><span class="skill-badge">JavaScript/TypeScript</span><span class="skill-badge">C++</span><span class="skill-badge">SQL</span>
-      </div>
-      <div class="skill-group">
-        <h5>Frameworks</h5>
-        <span class="skill-badge">.NET Core</span><span class="skill-badge">FastAPI</span><span class="skill-badge">Express</span><span class="skill-badge">React</span>
-      </div>
-      <div class="skill-group">
-        <h5>Databases</h5>
-        <span class="skill-badge">PostgreSQL</span><span class="skill-badge">MongoDB</span><span class="skill-badge">SQL Server</span>
-      </div>
-      <div class="skill-group">
-        <h5>Cloud & Infrastructure</h5>
-        <span class="skill-badge">AWS</span><span class="skill-badge">Azure</span><span class="skill-badge">Kubernetes</span><span class="skill-badge">Docker</span><span class="skill-badge">Azure DevOps</span>
-      </div>
-      <div class="skill-group">
-        <h5>AI/NLP Engineering</h5>
-        <span class="skill-badge">PyTorch</span><span class="skill-badge">RAG</span><span class="skill-badge">LangChain</span><span class="skill-badge">Supervised Fine-Tuning (SFT)</span><span class="skill-badge">Multi-Agent Systems</span>
-      </div>
-      <div class="skill-group">
-        <h5>Collaboration & Leadership</h5>
-        <span class="skill-badge">Agile/Scrum</span><span class="skill-badge">Project Management</span><span class="skill-badge">Leadership</span><span class="skill-badge">Code Reviews</span><span class="skill-badge">Mentorship</span>
-      </div>
-    </section>
-
-    <section id="experience">
-      <h3 class="font-weight-bold text-center mb-4 text-white">Professional Experience</h3>
-      <div class="timeline">
-        <div class="timeline-item">
-          <span class="text-muted small">Jul 2024 – Present</span>
-          <h5 class="mt-1 text-white">Senior Software Engineer – Assistant Manager <small class="text-secondary">KPMG, Munich</small></h5>
-          <ul>
-            <li>Lead a development tribe in a 40+ engineer team to deliver complex, high-impact features, while also serving as one of the lead developers shaping the technical architecture.</li>
-            <li>Act as a key technical liaison with business stakeholders in KPMG US, translating business needs into technical requirements and leading feature design discussions across multiple teams.</li>
-            <li>Spearhead backend and database optimization initiatives, significantly reducing report generation times by architecting and implementing solutions with Azure and asynchronous messaging.</li>
-            <li>Lead the integration of AI/LLM capabilities into the core application, leveraging unique expertise to pioneer new features.</li>
-          </ul>
+      <div class="container reveal">
+        <div class="section-title">
+          <h2>Technical Skills</h2>
+          <p class="section-sub">A snapshot of tools I use to ship</p>
         </div>
-        <div class="timeline-item">
-          <span class="text-muted small">Apr 2023 – Jun 2024</span>
-          <h5 class="mt-1 text-white">Software Engineer – Associate <small class="text-secondary">PwC, Munich</small></h5>
-          <ul>
-            <li>Developed backend modules with ASP.NET Core and SQL Server, supporting enterprise-scale internal platforms.</li>
-            <li>Contributed to developing Authentication-as-a-Service (SSO), enabling secure, unified access across multiple PwC applications.</li>
-            <li>Delivered multiple proof-of-concepts to validate new technologies and accelerate adoption within internal projects.</li>
-          </ul>
-        </div>
-        <div class="timeline-item">
-          <span class="text-muted small">Feb 2022 – Nov 2024</span>
-          <h5 class="mt-1 text-white">Senior Software Engineer & Project Manager → Technical Consultant <small class="text-secondary">Maaly (Telypay), Muscat</small></h5>
-          <ul>
-            <li>Founded and scaled the engineering team from zero to six engineers, leading hiring, mentoring, and process setup.</li>
-            <li>Designed and built Oman’s first Open Banking integration and a personal finance app featuring NLP-based SMS parsing.</li>
-            <li>Deployed and managed the company’s AWS cloud infrastructure (IaaS), ensuring scalability and cost efficiency.</li>
-            <li>Built a financial insights chatbot leveraging NLP and LLMs to enable natural language queries on user data.</li>
-          </ul>
-        </div>
-        <div class="timeline-item">
-            <span class="text-muted small">Oct 2023 – Apr 2024</span>
-            <h5 class="mt-1 text-white">Teaching Assistant – Foundations in Data Engineering <small class="text-secondary">TUM, Munich</small></h5>
-            <ul>
-                <li>Conducted weekly exercise sessions in C++ and SQL for Master’s students, reinforcing core data engineering and distributed systems concepts.</li>
-            </ul>
-        </div>
-        <div class="timeline-item">
-          <span class="text-muted small">Sep 2021 – Jun 2022</span>
-          <h5 class="mt-1 text-white">Research & Teaching Assistant <small class="text-secondary">GUtech, Muscat</small></h5>
-          <ul>
-            <li>Delivered labs and tutorials on C++, Data Structures, Operating Systems, SQL, and ASP.NET Core.</li>
-            <li>Built a voice-controlled object detection system for assistive smart glasses, enhancing accessibility for visually impaired users.</li>
-          </ul>
-        </div>
-        <div class="timeline-item">
-          <span class="text-muted small">Feb 2020 – Apr 2021</span>
-          <h5 class="mt-1 text-white">Full-Stack Developer <small class="text-secondary">Webware, Muscat</small></h5>
-          <ul>
-            <li>Built and deployed a cross-platform charity donation app (Flutter + ASP.NET Core + SQL Server) for Dar Al Atta.</li>
-            <li>Integrated payment gateways, SMS, and email services, enabling seamless donation flows and case management.</li>
-            <li>Launched app successfully on App Store & Google Play, supporting hundreds of active users.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="education">
-      <h3 class="font-weight-bold text-center mb-4 text-white">Education</h3>
-      <div class="row">
-        <div class="col-md-6 mb-4">
-          <div class="card card-transparent p-3 h-100">
-            <span class="text-muted small">Graduated with Distinction</span>
-            <h5 class="mt-1 text-white">M.Sc. Data Engineering and Analytics <small class="text-secondary">Technical University of Munich (TUM)</small></h5>
-            <p class="mb-0">cGPA: 1.3 / 1.0 (Top 10% of cohort) <br><em>Recipient of the DAAD Master Scholarship</em> </p>
+        <div class="skills">
+          <div class="skill-col panel">
+            <h4>Languages</h4>
+            <div class="badges">
+              <span class="tag">C#</span><span class="tag">Python</span><span class="tag">TypeScript</span><span class="tag">C++</span><span class="tag">SQL</span>
+            </div>
           </div>
-        </div>
-        <div class="col-md-6 mb-4">
-          <div class="card card-transparent p-3 h-100">
-            <span class="text-muted small">Graduated: Sep 2021</span>
-            <h5 class="mt-1 text-white">B.Sc. Computer Science <small class="text-secondary">GUtech, Oman</small></h5>
-            <p class="mb-0">cGPA: 4.0 / 4.0 <br><em>Awarded the Academic Rector’s Medal for graduating first in the university</em>.</p>
+          <div class="skill-col panel">
+            <h4>Frameworks</h4>
+            <div class="badges">
+              <span class="tag">.NET Core</span><span class="tag">FastAPI</span><span class="tag">Express</span><span class="tag">React</span><span class="tag">NestJS</span>
+            </div>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="awards">
-      <h3 class="font-weight-bold text-center mb-4 text-white">Awards & Honors</h3>
-      <div class="row">
-        <div class="col-md-6 mb-4">
-          <div class="card card-transparent p-3 d-flex flex-column h-100">
-            <h5 class="text-white mb-1">DAAD Master Scholarship</h5>
-            <p class="mb-0 small">Awarded by the German Academic Exchange Service for academic excellence and research potential during graduate studies at RWTH Aachen.<br><span class="text-muted">Munich, Germany</span></p>
+          <div class="skill-col panel">
+            <h4>Cloud & Infra</h4>
+            <div class="badges">
+              <span class="tag">AWS</span><span class="tag">Azure</span><span class="tag">Docker</span><span class="tag">Kubernetes</span><span class="tag">Azure DevOps</span>
+            </div>
           </div>
-        </div>
-        <div class="col-md-6 mb-4">
-          <div class="card card-transparent p-3 d-flex flex-column h-100">
-            <h5 class="text-white mb-1">Academic Rector’s Medal</h5>
-            <p class="mb-0 small">Awarded to the top graduating student across all majors at GUtech, Oman.<br><span class="text-muted">Muscat, Oman</span></p>
+          <div class="skill-col panel">
+            <h4>AI & LLM</h4>
+            <div class="badges">
+              <span class="tag">LangChain</span><span class="tag">RAG</span><span class="tag">PyTorch</span><span class="tag">Multi-Agent</span><span class="tag">SFT</span>
+            </div>
           </div>
-        </div>
-        <div class="col-md-6 mb-4">
-          <div class="card card-transparent p-3 d-flex flex-column h-100">
-            <h5 class="text-white mb-1">DAAD Bachelor Thesis Scholarship</h5>
-            <p class="mb-0 small">Competitive funding from DAAD to conduct undergraduate thesis research at RWTH Aachen University, Germany.<br><span class="text-muted">Aachen, Germany</span></p>
+          <div class="skill-col panel">
+            <h4>Data & DBs</h4>
+            <div class="badges">
+              <span class="tag">PostgreSQL</span><span class="tag">MongoDB</span><span class="tag">SQL Server</span>
+            </div>
           </div>
-        </div>
-        <div class="col-md-6 mb-4">
-          <div class="card card-transparent p-3 d-flex flex-column h-100">
-            <h5 class="text-white mb-1">Oman Education Services (OES) Scholarship</h5>
-            <p class="mb-0 small">Full merit-based bachelor’s scholarship, awarded to top 1% of high school graduates in Oman.<br><span class="text-muted">Muscat, Oman</span></p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects">
-      <h3 class="font-weight-bold text-center mb-4 text-white">Featured Projects</h3>
-      <div class="row">
-        <div class="col-lg-6 mb-4">
-          <div class="card card-transparent p-3 d-flex flex-column h-100">
-            <span class="text-muted small">Master's Thesis | Publication at ECML 2025</span>
-            <h5 class="mt-1 text-white">StrategicAI: Multi-Agent Decision Support System</h5>
-            <ul>
-              <li>Designed and implemented a multi-agent LLM system for complex decision-making, using RAG, FastAPI, Docker, and MongoDB.</li>
-              <li>Demonstrated superior performance to ChatGPT in strategic problem-solving tasks.</li>
-            </ul>
-            <div class="mt-auto">
-              <a href="files/paper.pdf" class="btn-link-goldenrod" target="_blank" download>Download Paper (ECML 2025)</a><br>
-              <a href="files/Poster.pdf" class="btn-link-goldenrod" target="_blank" download>Download Poster (ECML 2025)</a><br>
-              <a href="files/thesis_report.pdf" class="btn-link-goldenrod" target="_blank" download>Download Full Thesis Report</a>
+          <div class="skill-col panel">
+            <h4>Leadership</h4>
+            <div class="badges">
+              <span class="tag">Agile/Scrum</span><span class="tag">Mentorship</span><span class="tag">PM</span><span class="tag">Code Reviews</span>
             </div>
           </div>
         </div>
-        <div class="col-lg-6 mb-4">
-          <div class="card card-transparent p-3 d-flex flex-column h-100">
-            <span class="text-muted small">TUM Course Project</span>
-            <h5 class="mt-1 text-white">CreateData4AI: Scalable Annotation Platform</h5>
-            <ul>
-              <li>Led development of a scalable annotation platform using embeddings + Ray for GPU/core parallelism.</li>
-              <li>Reduced annotation latency and enabling expert collaboration features.</li>
-            </ul>
-          </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+      <div class="container reveal">
+        <div class="section-title">
+          <h2>Professional Experience</h2>
+          <p class="section-sub">Impact, not just responsibilities</p>
         </div>
-        <div class="col-lg-6 mb-4">
-          <div class="card card-transparent p-3 d-flex flex-column h-100">
-            <span class="text-muted small">Bachelor Thesis | RWTH Aachen</span>
-            <h5 class="mt-1 text-white">Open.ER: OER Awareness Mobile App</h5>
-            <ul>
-              <li>Developed a cross-platform app (Flutter, .NET Core) to promote Open Educational Resources (OER).</li>
-              <li>Achieved greater than 80% usability satisfaction in a prototype deployed at RWTH Aachen.</li>
-            </ul>
+        <div class="timeline">
+          <div class="t-item">
+            <span class="t-dot" aria-hidden="true"></span>
+            <div class="t-card">
+              <h3>KPMG Deutschland — <strong>Senior Software Engineer · Assistant Manager</strong></h3>
+              <div class="t-meta"><span>Jul 2024 – Present</span><span>Munich</span></div>
+              <ul>
+                <li>Co-led a 40+ engineer global team delivering KPMG’s Transfer Pricing Reporting platform.</li>
+                <li>Architected modules for multi-ToC reports and compliance-driven master file generation.</li>
+                <li>Cut report generation time by 90% via refactoring + Azure Functions microservices.</li>
+                <li>Integrated AI/LLM capabilities for intelligent automation.</li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-6 mb-4">
-          <div class="card card-transparent p-3 d-flex flex-column h-100">
-            <span class="text-muted small">Full-Stack Project</span>
-            <h5 class="mt-1 text-white">Charity Donation App for Dar Al Atta</h5>
-            <ul>
-              <li>Built and deployed a cross-platform charity app (Flutter, .NET Core, SQL Server) from end-to-end.</li>
-              <li>Integrated payment gateways, SMS/email services, and secure authentication, supporting hundreds of active donors on the App Store & Google Play.</li>
-            </ul>
+          <div class="t-item">
+            <span class="t-dot" aria-hidden="true"></span>
+            <div class="t-card">
+              <h3>McKinsey & Company / TUM — <strong>LLM Research Engineer (Thesis)</strong></h3>
+              <div class="t-meta"><span>Oct 2024 – Apr 2025</span></div>
+              <ul>
+                <li>Developed <strong>StrategicAI</strong>, a multi-agent LLM system for structured decision support.</li>
+                <li>Built RAG pipelines and dynamic prompting frameworks using LangChain and AWS.</li>
+                <li>Outperformed ChatGPT-4o in strategic reasoning; published at ECML 2025.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="t-item">
+            <span class="t-dot" aria-hidden="true"></span>
+            <div class="t-card">
+              <h3>Fusionbase / TUM — <strong>AI Systems Engineer · Project Lead</strong></h3>
+              <div class="t-meta"><span>Oct 2023 – Jun 2024</span></div>
+              <ul>
+                <li>Led CreateData4AI platform (Next.js + FastAPI + MongoDB + Ray).</li>
+                <li>Reduced processing from 6 days to 5 minutes with distributed embedding computation.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="t-item">
+            <span class="t-dot" aria-hidden="true"></span>
+            <div class="t-card">
+              <h3>PwC Deutschland — <strong>Associate Software Engineer</strong></h3>
+              <div class="t-meta"><span>Apr 2023 – Jun 2024</span></div>
+              <ul>
+                <li>Built and maintained internal AuthaaS SSO platform.</li>
+                <li>Integrated Prometheus & Grafana for observability.</li>
+                <li>Implemented regression tests reducing incidents by 40%.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="t-item">
+            <span class="t-dot" aria-hidden="true"></span>
+            <div class="t-card">
+              <h3>TelyPay (Maaly) — <strong>Senior Software Engineer & PM → Technical Consultant</strong></h3>
+              <div class="t-meta"><span>Feb 2022 – Nov 2024</span></div>
+              <ul>
+                <li>Founded and led the engineering team; delivered Oman’s first Open Banking integration.</li>
+                <li>Built NLP-based personal finance app; led AWS cloud migration.</li>
+                <li>Won “Best Financial App in Oman” (COMEX 2023).</li>
+              </ul>
+            </div>
+          </div>
+          <div class="t-item">
+            <span class="t-dot" aria-hidden="true"></span>
+            <div class="t-card">
+              <h3>Webware — <strong>Full-Stack Developer</strong></h3>
+              <div class="t-meta"><span>Feb 2020 – Apr 2021</span></div>
+              <ul>
+                <li>Developed cross-platform donation app for Dar Al Atta.</li>
+                <li>Integrated payments, SMS, and email notifications.</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <footer class="text-center py-4">
-      <p>Connect with me:</p>
-      <a href="mailto:alkayyal.majd@gmail.com" class="mx-2 text-white"><i class="fa fa-envelope fa-lg"></i></a>
-      <a href="https://www.linkedin.com/in/majd-alkayyal-67a81a18a/" target="_blank" class="mx-2 text-white"><i class="fa fa-linkedin fa-lg"></i></a>
-      <p class="small mt-3 mb-0 text-white">&copy; 2025 Majd Al Kayyal | Munich, Germany</p>
-    </footer>
+    <!-- EDUCATION -->
+    <section id="education">
+      <div class="container reveal">
+        <div class="section-title">
+          <h2>Education</h2>
+          <p class="section-sub">Academic foundations</p>
+        </div>
+        <div class="edu-grid">
+          <div class="panel">
+            <h4>Technical University of Munich (TUM)</h4>
+            <p><strong>M.Sc. Data Engineering and Analytics</strong><br />cGPA: 1.3 / 1.0 — DAAD Scholar</p>
+          </div>
+          <div class="panel">
+            <h4>German University of Technology in Oman (GUtech)</h4>
+            <p><strong>B.Sc. Computer Science</strong><br />cGPA: 4.0 / 4.0 — Rector’s Medalist, DAAD Bachelor Scholar</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AWARDS -->
+    <section id="awards">
+      <div class="container reveal">
+        <div class="section-title">
+          <h2>Awards & Honors</h2>
+          <p class="section-sub">Recognition for excellence</p>
+        </div>
+        <div class="awards">
+          <div class="award">DAAD Master Scholarship — top 5% academic excellence</div>
+          <div class="award">Academic Rector’s Medal — top graduate at GUtech</div>
+          <div class="award">DAAD Bachelor Thesis Scholarship — research at RWTH Aachen</div>
+          <div class="award">OES Scholarship — full merit-based undergrad scholarship</div>
+          <div class="award">ICPC Oman Champion — 1st place nationally</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section id="research">
+      <div class="container reveal">
+        <div class="section-title">
+          <h2>Research & Publications</h2>
+          <p class="section-sub">Where theory meets practice</p>
+        </div>
+        <div class="papers">
+          <div class="paper">
+            <p><strong>StrategicAI:</strong> Multi-Agent Decision Support System — <em>Published at ECML 2025</em></p>
+            <p>Research collaboration with McKinsey & Company and Technical University of Munich.</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <script src="js/jquery-3.5.0.min.js"></script>
-  <script src="js/bootstrap.bundle.min.js"></script>
+  <footer>
+    <div class="container">
+      <p>📧 <a href="mailto:alkayyal.majd@gmail.com">alkayyal.majd@gmail.com</a> · 📞 <a href="tel:+491745166916">+49 174 5166916</a></p>
+      <p><a href="https://www.linkedin.com/in/majd-alkayyal-67a81a18a/" target="_blank" rel="noreferrer noopener">LinkedIn</a> · <a href="https://github.com/PortgasXDXMajd" target="_blank" rel="noreferrer noopener">GitHub</a> · <a href="https://majdalkayyal.com" target="_blank" rel="noreferrer noopener">Website</a></p>
+      <p>&copy; 2025 Majd Al Kayyal — Munich, Germany</p>
+    </div>
+  </footer>
+
+  <script>
+    // Particles
+    document.addEventListener('DOMContentLoaded', function() {
+      if (window.particlesJS) {
+        particlesJS('particles-js', {
+          particles: {
+            number: { value: 60 }, size: { value: 2.6 }, move: { speed: 0.6 },
+            line_linked: { enable: true, opacity: 0.08 }, opacity: { value: 0.25 }, color: { value: '#ffd24a' }
+          }, interactivity: { events: { onhover: { enable: false } } }
+        });
+      }
+    });
+
+    // Mobile menu
+    const menuBtn = document.getElementById('menuBtn');
+    const navLinks = document.getElementById('navLinks');
+    menuBtn?.addEventListener('click', () => navLinks.classList.toggle('open'));
+
+    // Active link on scroll
+    const links = [...document.querySelectorAll('.nav .link')];
+    const sections = links.map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+    const onScroll = () => {
+      const y = window.scrollY + 120;
+      let active = 0;
+      sections.forEach((sec, i) => { if (sec.offsetTop <= y) active = i; });
+      links.forEach((l,i)=> l.classList.toggle('active', i===active));
+    };
+    document.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+
+    // Reveal on scroll
+    const obs = new IntersectionObserver((entries)=>{
+      for (const e of entries) {
+        if (e.isIntersecting) { e.target.classList.add('revealed'); obs.unobserve(e.target); }
+      }
+    },{ threshold: .14 });
+    document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+
+    // Theme toggle
+    const root = document.documentElement;
+    const toggle = document.getElementById('themeToggle');
+    const stored = localStorage.getItem('theme');
+    if (stored) root.classList.toggle('light', stored==='light');
+    toggle?.addEventListener('click', ()=>{
+      root.classList.toggle('light');
+      localStorage.setItem('theme', root.classList.contains('light') ? 'light' : 'dark');
+      toggle.textContent = root.classList.contains('light') ? '🌞' : '🌙';
+    });
+    toggle && (toggle.textContent = root.classList.contains('light') ? '🌞' : '🌙');
+  </script>
 </body>
 </html>

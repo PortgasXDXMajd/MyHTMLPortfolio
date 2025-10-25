@@ -1,0 +1,51 @@
+[
+  {
+    "title": "StrategicAI: Multi-Agent Decision Support System",
+    "organization": "McKinsey & Company / Technical University of Munich",
+    "date": "Oct 2024 – Apr 2025",
+    "description": "Developed a multi-agent LLM decision-support system integrating retrieval-augmented generation (RAG), tool use, and autonomous agent collaboration for strategic reasoning. Outperformed ChatGPT-4o in structured decision-making; published at ECML 2025.",
+    "tags": ["Python", "LangChain", "RAG", "AWS", "LLM", "Multi-Agent Systems", "Open Source"],
+    "links": [
+      { "label": "Paper (ECML 2025)", "url": "files/paper.pdf" },
+      { "label": "Poster", "url": "files/poster.pdf" },
+      { "label": "Thesis Report", "url": "files/thesis_report.pdf" }
+    ]
+  },
+  {
+    "title": "CreateData4AI: Scalable Annotation Platform",
+    "organization": "Fusionbase / Technical University of Munich",
+    "date": "Oct 2023 – Jun 2024",
+    "description": "Led a 4-member team to build a scalable, collaborative annotation platform using Next.js, FastAPI, and Ray for distributed embedding computation, reducing dataset processing time from 6 days to 5 minutes.",
+    "tags": ["Next.js", "FastAPI", "MongoDB", "Ray", "Cloud", "AI Infrastructure"],
+    "links": []
+  },
+  {
+    "title": "AI Debate Simulator",
+    "organization": "Side Project",
+    "date": "Oct 2025",
+    "description": "An interactive app where two AI models debate on any topic, streamed in real-time, and a third model judges their arguments based on clarity, logic, evidence, rebuttal quality, and civility.",
+    "tags": ["FastAPI", "Streamlit", "LLM", "Docker", "Open Source"],
+    "links": [
+      { "label": "GitHub Repo", "url": "https://github.com/PortgasXDXMajd/AI-Debate-Simulator" }
+    ]
+  },
+  {
+    "title": "Open Banking API Aggregator & Financial NLP",
+    "organization": "Maaly (TelyPay)",
+    "date": "Feb 2022 – Nov 2024",
+    "description": "Designed and led Oman’s first Open Banking API integration and an NLP-based SMS parser for transaction classification. Scaled cloud infrastructure on AWS and launched award-winning fintech apps.",
+    "tags": ["AWS", "Python", "NLP", "Open Banking", "Fintech"],
+    "links": []
+  },
+  {
+    "title": "Charity Donation App (Dar Al Atta)",
+    "organization": "Webware",
+    "date": "Feb 2020 – Apr 2021",
+    "description": "Built and deployed a cross-platform mobile donation app using Flutter and .NET Core with integrated payment gateways and case management, successfully launched on App Store and Google Play.",
+    "tags": ["Flutter", ".NET Core", "SQL Server", "Mobile", "Payment Gateway"],
+    "links": [
+        { "label": "App Store", "url": "https://apps.apple.com/us/app/dar-al-atta/id1561519313?utm_source=chatgpt.com" },
+        { "label": "Google Play", "url": "https://play.google.com/store/apps/details?amp;gl=US&amp;hl=ar&id=om.webware.dar_al_atta&pli=1" }
+    ]
+  }
+]

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio | Majd Al Kayyal</title>
+  <meta name="description" content="Selected projects by Majd Al Kayyal — AI, Cloud, and Scalable Systems." />
+  <meta name="theme-color" content="#111418" />
+
+  <!-- Fonts & lib -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <script defer src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- SEO -->
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://majdalkayyal.com/portfolio.html" />
+  <meta name="author" content="Majd Al Kayyal" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Portfolio | Majd Al Kayyal" />
+  <meta property="og:description" content="AI, Cloud, and Scalable Systems projects by Majd Al Kayyal." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://majdalkayyal.com/portfolio.html" />
+  <meta property="og:image" content="https://majdalkayyal.com/og-image.jpg" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Portfolio | Majd Al Kayyal" />
+  <meta name="twitter:description" content="AI, Cloud, and Scalable Systems projects by Majd Al Kayyal." />
+  <meta name="twitter:image" content="https://majdalkayyal.com/og-image.jpg" />
+
+  <!-- Icons (shared) -->
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+</head>
+<body>
+  <!-- Particles Background -->
+  <div id="particles-js" aria-hidden="true"></div>
+
+  <!-- NAVBAR (same structure/classes as index) -->
+  <div class="nav-wrap">
+    <nav class="nav container" aria-label="Primary">
+      <div class="nav-inner">
+        <a href="index.html#top" class="brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span>Majd&nbsp;Al&nbsp;Kayyal</span>
+        </a>
+        <button class="menu-btn btn-ghost" id="menuBtn" aria-label="Toggle menu">☰</button>
+        <div class="nav-links" id="navLinks">
+          <a class="link" href="index.html#about">About</a>
+          <a class="link" href="index.html#skills">Skills</a>
+          <a class="link" href="index.html#experience">Experience</a>
+          <a class="link" href="index.html#education">Education</a>
+          <a class="link" href="index.html#awards">Awards</a>
+          <a class="link" href="index.html#research">Research</a>
+          <a class="btn btn-ghost" href="portfolio.html" aria-current="page">Portfolio</a>
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- HERO (compact variant of index hero) -->
+  <header class="hero-pro hero-compact">
+    <div class="hero-bg" aria-hidden="true"></div>
+
+    <div class="container reveal">
+      <div class="pro-card">
+        <div class="title-wrap">
+          <h1>Portfolio</h1>
+          <p class="lead">Selected projects — AI, Cloud, and Scalable Systems</p>
+          <div class="actions" role="group" aria-label="Portfolio actions">
+            <a class="btn btn-primary" href="#portfolio">Browse projects</a>
+            <a class="btn" href="mailto:alkayyal.majd@gmail.com">Work with me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- FILTER + GRID -->
+    <section id="portfolio">
+      <div class="container reveal">
+        <div class="section-title">
+          <h2>Selected Work</h2>
+          <p class="section-sub">Search & filter by tags</p>
+        </div>
+
+        <div class="filter-bar panel" role="search">
+          <input id="search" type="text" placeholder="Search projects… (e.g. RAG, AWS, .NET)" aria-label="Search projects" />
+        </div>
+
+        <div id="project-grid" class="project-grid grid" aria-live="polite"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER (reuse index styles) -->
+  <footer>
+    <div class="container">
+      <p>📧 <a href="mailto:alkayyal.majd@gmail.com">alkayyal.majd@gmail.com</a> · 📞 <a href="tel:+491745166916">+49 174 5166916</a></p>
+      <p><a href="https://www.linkedin.com/in/majd-alkayyal-67a81a18a/" target="_blank" rel="noreferrer noopener">LinkedIn</a> · <a href="https://github.com/PortgasXDXMajd" target="_blank" rel="noreferrer noopener">GitHub</a> · <a href="https://majdalkayyal.com" target="_blank" rel="noreferrer noopener">Website</a></p>
+      <p>&copy; 2025 Majd Al Kayyal — Munich, Germany</p>
+    </div>
+  </footer>
+
+  <!-- Scripts (mirror index behavior) -->
+  <script src="js/portfolio.js" defer></script>
+  <script>
+    // Particles (subtle; same palette)
+    document.addEventListener('DOMContentLoaded', function() {
+      if (window.particlesJS) {
+        particlesJS('particles-js', {
+          particles: {
+            number: { value: 50 }, size: { value: 2.6 }, move: { speed: 0.6 },
+            line_linked: { enable: true, opacity: 0.08 }, opacity: { value: 0.25 }, color: { value: '#ffd24a' }
+          }, interactivity: { events: { onhover: { enable: false } } }
+        });
+      }
+    });
+
+    // Mobile menu (same as index)
+    const menuBtn = document.getElementById('menuBtn');
+    const navLinks = document.getElementById('navLinks');
+    menuBtn?.addEventListener('click', () => navLinks.classList.toggle('open'));
+
+    // Theme toggle (same as index)
+    const root = document.documentElement;
+    const toggle = document.getElementById('themeToggle');
+    const stored = localStorage.getItem('theme');
+    if (stored) root.classList.toggle('light', stored==='light');
+    toggle?.addEventListener('click', ()=>{
+      root.classList.toggle('light');
+      localStorage.setItem('theme', root.classList.contains('light') ? 'light' : 'dark');
+      toggle.textContent = root.classList.contains('light') ? '🌞' : '🌙';
+    });
+    toggle && (toggle.textContent = root.classList.contains('light') ? '🌞' : '🌙');
+
+    // Reveal
+    const obs = new IntersectionObserver((entries)=>{
+      for (const e of entries) {
+        if (e.isIntersecting) { e.target.classList.add('revealed'); obs.unobserve(e.target); }
+      }
+    },{ threshold: .14 });
+    document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+  </script>
+</body>
+</html>
